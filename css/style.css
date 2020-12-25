@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    color: white;
+    background-color: #006666;
+}
+
+
+/******************* style navbar *****************/
+a {
+    text-decoration: none;
+}
+
+.text-primary {
+    color: #e65c00;
+}
+
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.1);
+    color: #fff;
+    justify-content: space-between;
+    padding: 1rem;
+    z-index: 1;
+
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    box-shadow: 0px 0px 5px;
+    background-color: #006666;
+
+}
+
+#navbar ul li a {
+    color: #fff;
+    margin;
+    0 0.25rem;
+    padding: 0.75rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #e65c00;
+    border-radius: 50px;
+}
+
+
+.logo {
+    box-shadow: 0 0 5px;
+    background-color: #006666;
+
+}
+
+
+/***************** style the home page ******************/
+#showcase {
+    background: #333 url('../img/image1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #f2f2f2;
+
+}
+
+.showcase-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.4);
+
+
+}
+
+.l-heading {
+
+    font-size: 3rem;
+    margin-bottom: 6rem;
+    line-height: 1.1;
+    color: #e65c00;
+
+
+}
+
+.lead {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+}
+
+.bt-link {
+    color: white;
+    display: inline-block;
+    background-color: #e65c00;
+    padding: 0.5rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5 10px;
+
+
+}
+
+.bt-link:hover {
+    background-color: #006666;
+}
+
+
+/********************** style section: what we do **********************/
+#what {
+    background-color: #f2f2f2;
+    color: #4d4d4d;
+    height: 50vh;
+}
+
+.text-center {
+    text-align: center;
+    padding: 3rem;
+    font-size: 2.5rem;
+
+}
+
+#what .container {
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.fas {
+    color: #e65c00;
+
+
+}
+
+.item {
+    background-color: #006666;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px;
+}
+
+.article {
+    text-align: center;
+    margin-right: 5rem;
+}
+
+
+/********************** style section: who we are **********************/
+
+#who {
+    display: flex;
+    background-color: #4d4d4d;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0)
+}
+
+.who-img {
+    flex: 1;
+    background: url('../img/image2.jpg') no-repeat center center/cover;
+
+}
+
+.who-text {
+    flex: 1;
+    padding: 4rem 0.5rem;
+}
+
+.who-heading {
+    padding-bottom: 15px;
+}
+
+.text-primary2 {
+    color: #e65c00;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+
+.list li {
+    list-style: none;
+    line-height: 2rem;
+    
+}
+
+.team-heading {
+    padding: 15px 0 10px 0;
+}
+
+/*************** style section: who are our customers ***************/
+
+#contact {
+    display: flex;
+    background-color: #f2f2f2;
+    color: #4d4d4d;
+    padding: 5rem 0;
+
+}
+
+#contact .contact-form,
+#contact .google-maps {
+    flex: 1;
+    padding: 2rem;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.google-maps {
+    background: url('../img/earth-map.jpg') no-repeat center center/cover;
+
+}
+
+.button-send {
+    background-color: #4d4d4d;
+    color: #e65c00;
+    border-radius:10px;
+}
+
+/**********style footer **********************/
+#main-footer {
+    background-color: #4d4d4d;
+    padding: 0.5rem;
+
+}
